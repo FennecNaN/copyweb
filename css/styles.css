@@ -1,0 +1,215 @@
+/* HEADER */
+.main {
+  font-family: "Arimo", sans-serif;
+}
+ul {
+  list-style: none;
+}
+.headerUno {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  margin-left: 380px;
+  margin-right: 250px;
+  font-size: 20px;
+}
+
+.menuNav {
+  display: flex;
+  margin-right: 250px;
+  margin: 30px;
+  font-weight: bold;
+}
+
+.menuNav li {
+  margin-left: 30px;
+}
+
+.headerDos {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+    background-color: #fff; /* Color de fondo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.npm {
+  width: 80px;
+}
+.buscador{
+
+}
+.search {
+    padding: 8px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.SignUp {
+    padding: 8px 15px;
+    background-color: transparent;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+
+.lupa {
+  width: 20px;
+}
+
+.sesion {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* MAIN */
+
+.centro1 {
+  background-image: url(/copyweb/assets/img/backgoundcolours.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px; 
+  text-align: center; 
+}
+
+
+
+.centro1 h1 {
+    font-size: 90px; 
+    color: white;
+    line-height: 0.3;
+
+}
+
+.centro1 .textoCentro1 {
+    color: white;
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto; 
+}
+
+.centro1 h2 {
+    font-size: 46px;
+    color: white;
+    margin-bottom: 20px; 
+}
+
+.botonesCentro1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px; 
+}
+
+.boton1centro1 {
+    padding: 10px 20px; 
+    background-color: rgb(226, 226, 35); 
+    color: black; 
+    font-weight: bold;
+    font-size: 20px;
+    border: none; 
+    border-radius: 60px;
+    margin: 0 25px;
+    box-shadow: 4px 4px 20px rgba(27, 27, 27, 0.753);
+}
+
+.boton2centro1 {
+    padding: 10px 20px; 
+    background-color: rgb(248, 64, 64);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: solid 1px white;
+    border-radius: 60px;
+    margin: 0 25px;
+}
+.centro1 .botonesCentro1 button:hover {
+    background-color: #0056b3; 
+}
+
+/* Centro2 */
+.centro2 {
+    background-color: #fff; 
+    padding: 50px; 
+    text-align: center; 
+}
+
+
+.centro2 img.bubbles {
+    width: 200px; 
+    margin-bottom: 30px; 
+}
+
+.centro2 h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.centro2 p {
+    font-size: 16px; 
+    line-height: 1.6; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    padding: 50px 0; 
+}
+
+.columnaFooter {
+    display: flex; 
+    justify-content: space-around; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.columnaCentro2 h2{
+    line-height: 0.3;
+    margin-bottom: 40px;
+}
+
+.footerLogos{
+    display: flex;
+    flex-direction: column;
+}
+.GitHubnpm {
+
+    width: 70px; 
+    margin-bottom: 20px; 
+}
+
+.GitHub{
+    padding-left: 6px;
+    width: 60px; 
+    margin-bottom: 20px; 
+}
+
+
+h3 {
+    font-size: 18px; 
+    margin-bottom: 10px; 
+}
+
+ul {
+    list-style: none;
+    padding: 0; 
+}
+li {
+    margin-bottom: 5px;
+}
+
+.lineasGradientes {
+    background: linear-gradient(to right, #dd722b, #d113e2);
+    height: 12px; 
+}
